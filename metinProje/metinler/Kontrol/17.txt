@@ -1,0 +1,33 @@
+Baþlýðýmýz biraz genel oldu ama temiz oldu:)..Arkadaþlar, programlama mevcut iþleri kolaylaþtýrmak ve onlarý týkýrýnda götürebilmek için kullanýlmaya baþlanýlmýþ bir araçtýr.Böyle bir araç programcýya da ayný güler yüzü göstermelidir, gösteriyor da.Örneðin kullanýcýdan 10 öðrencinin 1er notunu okumak istiyorken 10 kere read komutu kullanacak olsak bu bir acýmasýzlýk olurdu iþte bu yüzdendir ki tekrar eden iþlemlerin yapýlmasý döngülerle olmaktadýr.
+
+Döngü, içerisindeki iþlemi bir durma noktasýna kadar devam ettiren bir yapýdýr.Bu durumda ise döngüleri ikiye ayýrmak zorunda kalýrýz; adým sayýsý belli olan ve olmayan döngüler.Misal yukarýda 10 öðrencinin notunu okumaktan bahsettik.Gördüðünüz gibi bu iþlemin adým sayýsý belli 10 öðrencinin notu 10 aþamada okunur.Ýþte böyle adým sayýsý belli olan iþlemler for döngüsü içinde yapýlýr ve kodu temel olarak;
+for i:=1 to n do þeklindedir.Bunun kalýp olmayan taraflarýný kalýn olarak yazdým.Burada hiçbir kalýp yok diyebilirsiniz. :) Þöyle ki orada i baþlangýç deðiþkenidir i olmak zorunda deðildir j de olabilir.1 baþlangýç deðeridir o da 2 3 v.s. olabilir. “to” artýmý belirtir yani burada 1’den baþlayarak n’e ulaþmadýðýmýz müddetçe i’nin deðeri 1 arttýrýlýr, bu down to da olabilir o da deðeri 1’er 1’er azaltýr.N ise m de olabilir durma noktasýdýr.
+
+Toparlamak gerekirse i ile belirtilen baþlangýç deðiþkeninin deðerinden baþlayan döngü, içerisinde bulunan iþlemleri bitirdikten sonra deðerini bir arttýrýr ve N’e ulaþýp ulaþmadýðýna bakar ve de N’ ulaþtýðýnda döngüye son kez girer.N’e ulaþtýðýnda çekip gitmez, for döngüsünün özelliði budur.
+
+Yukarýdaki þekilde, özel olarak emek sarfetmediðim YTÜ BBG-1 dersinin notlarýnda bulunan, bir sayýnýn herhangi bir kuvvetini bulan bir örneði görüyoruz, anlatmadan önce alýntý olduðunu belirtmek istedim. Gördüðümüz gibi kullanýcýdan sayý ve kuvvet diye iki deðiþken okuyoruz. Deger deðiþkenimiz dýþarý dönderecek olduðumuz deðiþken ve programýn baþýnda 1 atamýþýz.Bu 1 atama iþlemi þu an gereksiz gözükebilir ama ilerki aþamalarda, çok daha fazla satýrdan oluþan bir program içerisinde "deger" daha önce kullanýlmýþsa buna iþlenmiþ bir bilgi olabilir ve biz bunu 1 olarak deðiþtirmeliyiz. Ardýndan for döngüsünün diyagramda ifade edilme tarzýný görüyoruz.Burada i»1 i'nin 1'den baþladýðýný, oranýn hemen yanýndaki 1; 1er 1er arttýðýný, alttaki "kuvvet" ise kuvvet deðiþkeninin deðerine kadar, döngünün, içerisindeki iþlemi yapacaðýný gösterir.Örneðin 3 üssü 4ü hesaplarken içerideki iþlem deger=deger*3=3* 3=9* 3=27* 3=81 þeklinde gerçekleþir Kodlarýmýz;
+
+
+
+Bilmeyenleriniz (veya bildiðini zannedenleriniz) için ben þöyle açýklayayým da belki merak edip bir bakarsýnýz… Bugün Türkiye Cumhuriyeti diye bir kavram halen var ise, sýrf o enstütülerin yeþerttiði fidanlarýn mahsüllerini yediðimizdendir. Yani Stoklarý tükettiðimizdendir, yeni mahsül yediðimizden deðil…..
+
+Zamanýnda karma eðitim (kýz ve erkek öðrencilerin beraber eðitim görmesi) uygulanan ve bunu köylü gençlere uygulayan bu kurumlar, sýrf bu yüzden “komunist yetiþtiriyor” gerekçesiyle kapatýlmýþlardý, bilir misiniz?
+
+Oysa onlar, öðretmenlik diplomasý verdikleri fidanlarýnýn bileklerine; marangoz, demir ustasý, çiftçi, terzi, ahçý, müzisyen, tiyatro oyuncusu gibi altýn bilezikler de takýyorlardý bir yandan. Çok yönlü, çaðdaþ, demokratik, laik, adam gibi adamlar yetiþtirip, büyük önder Mustafa Kemal’in “Köylü Milletin Efendisidir” sözüne yakýþýr mezunlar veriyorlardý.
+
+Kýydýlar o kurumlara… O fidanlarýn dibini kuruttular. Çünkü biliyorlardý ki, o fidanlar kendilerine her daim ayak baðý olacak. Cahil halkýn gözünün açýlmasýný saðlayacak. Laik CUmhuriyeti her þeyin üzerinde tutacak. Ülkesini satmayan, sattýrmayan, canýndan çok seven, Ata’nýn yolunda “gerekirse ölürüm” diyen nice fidanlar yetiþecek… Gelmedi bu iþlerine, kýydýlar o kurumlara…
+
+Ben her 24 Kasýmda bunu hatýrlarým iþte.. Dedem, büyükbabam, babaannemin yetiþtiði bu kurumlar, onlarýn anlattýklarý, 80 yaþýnda bile gözlerinde parýldayan Cumhuriyet ve eðitim aþkýný gözümün önüne getiririm.
+
+Sonra onlarýn evlatlarý olan annem ve babam gelir gözümün önüne.. Adeta miras gibi devir aldýklarý bu kutsal meslek için gece gündüz demeden çýrpýnýþlarýný hatýrlarým. Önlerine çýkan her türlü engele raðmen umutlarýný, mesleklerine olan saygýlarýný kaybetmeyiþlerini, öðrencilerinden bahsederken, kendi evlatlarýndan ayýrt etmeksizin gözlerinin ýþýldayýþýný hatýrlarým…
+
+Ben öðretmen çocuðuyum, öðretmen torunuyum..
+
+Son 60 yýlda bu ülkede, bu kutsal mesleðin geçirdiði tüm evreleri, 24 yýllýk hayatýmda yaþadým, yaþatýldým..
+
+Þimdi gelinen duruma bakýnca, bu kutsal mesleði “öylesine seçilesi bir meslek” haline getirenleri görünce, “hiç bir þey olamadým, bari öðretmen olayým da devlete sýrtýmý dayayayým” þeklinde düþünüp mesleðe girenleri düþününce, içim sýzlar, hüzünlenirim…
+
+Ýþte o yüzden, bugün en azýndan bir tane öðretmenin elini sýmsýký sarýn, öpün koklayýn… O eller, hiç býrakýlmayacak kadar kutsal ellerdir çünkü…
+
+Mesleðine gönülden baðlý tüm öðretmenlerin,, en baþta da baþöðretmen Mustafa Kemal Atatürk’ün, öðretmenler gününü, en içten saygýlarýmla kutlarým…
+

@@ -1,0 +1,1 @@
+metinler dosyasý C dizinine atýlmasý gerekiyor
